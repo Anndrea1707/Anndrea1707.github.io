@@ -53,8 +53,8 @@ main .content--presentation {
 }
 .content-principal img {
     position: absolute;
-    top: 120px;
-    right: 100px;
+    top: 130px;
+    right: 150px;
     width: 250px;
     border-radius: 50px;
     box-shadow: 4px 4px 15px 0 #81ffff,
