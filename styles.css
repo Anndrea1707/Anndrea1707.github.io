@@ -55,7 +55,7 @@ main .content--presentation {
     position: absolute;
     top: 120px;
     right: 100px;
-    width: 300px;
+    width: 250px;
     border-radius: 50px;
     box-shadow: 4px 4px 15px 0 #81ffff,
                 -4px -4px 15px 0 #81ffff;
