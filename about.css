@@ -43,43 +43,24 @@ header img {
 }
 /*MAIN*/
 main {
-    background-color: var(--blue_principal);
+    background-color: #0c1241;
 }
 main img {
-    width: 100%;
-    opacity: 50%;
+    width: 250px;
+    margin: 30px 0px 0px 180px;
+    border-radius: 40px;
 }
-.content-principal {
+.main-presentation {
     font-family: 'Montserrat';
     color: var(--white);
-    font-size: 1.4rem;
+    position: absolute;
+    margin: -450px 50px 0px 500px;
 }
-.content-principal div {
-    position: relative;
-    text-align: center;
-}
-.content-principal h1 {
+.main-presentation h1 {
     font-size: 3rem;
-    margin-top: 60px;
+    font-style: italic;
 }
-.content-principal p {
-    margin-top: 70px;
-}
-.content-principal button {
-    width: 170px;
-    height: 50px;
-    margin-top: 90px;
-    background-color: #d7aff7;
-    border: 2px solid;
-    border-radius: 10px;
-    font-family: 'Montserrat';
+.main-presentation p {
     font-size: 1.4rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    cursor: pointer;
-    outline: none;
-}
-.content-principal button a {
-    text-decoration: none;
-    color: var(--black);
+    line-height: 35px;
 }
