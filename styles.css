@@ -71,6 +71,7 @@ main img {
     margin-top: 70px;
     width: 100%;
     font-size: 1.2rem;
+    line-height: 35px;
 }
 .content-principal button {
     width: 180px;
@@ -90,3 +91,64 @@ main img {
     text-decoration: none;
     color: var(--black);
 }
+/*SECTION PROJECTS*/
+/*MAIN*/
+.project1 {
+    width: 400px;
+    height: 400px;
+    background-color: #f37fda;
+    border-radius: 40px;
+    margin: 50px 100px;
+    box-shadow: 4px 6px 8px rgba(86, 73, 30, 0.16);
+}
+.project1 img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.project1__buttom button {
+    width: 200px;
+    height: 50px;
+    margin: 20px 0px 80px 100px;
+    background-color: var(--blue_principal);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.438);
+}
+.project1__buttom a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Courgette';
+    font-size: 1.2rem;
+}
+.project2 {
+    width: 400px;
+    height: 400px;
+    background-color: #f37fda;
+    border-radius: 40px;
+    margin: 150px 100px;
+}
+/*SECTION ABOUT ME*/
+/*MAIN*/
+.main-informacion img {
+    width: 250px;
+    margin: 30px 0px 0px 180px;
+    border-radius: 40px;
+    box-shadow: 2px 4px 8px rgba(26, 25, 22, 0.432);
+}
+.main-presentation {
+    font-family: 'Montserrat';
+    color: var(--black);
+    position: absolute;
+    margin: -450px 50px 0px 500px;
+}
+.main-presentation h1 {
+    font-size: 3rem;
+    font-style: italic;
+}
+.main-presentation p {
+    font-size: 1.4rem;
+    line-height: 35px;
+}
+/*SECTION CONTACT*/
