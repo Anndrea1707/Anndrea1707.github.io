@@ -145,7 +145,7 @@ main img {
 }
 .main-presentation h1 {
     font-size: 3rem;
-    font-style: italic;
+    font-family: 'courgette';
 }
 .main-presentation p {
     font-size: 1.4rem;
