@@ -30,8 +30,8 @@ header img {
     list-style: none;
     padding: 0px;
     position: absolute;
-    text-align: left;
-    margin: 40px 0px 0px -580px;
+    text-align: ri;
+    margin: 40px 0px 0px -600px;
 }
 .header-menu li {
     margin: 10px 0px;
@@ -41,18 +41,21 @@ header img {
     color: var(--white);
     text-decoration: none;
 }
-/*MAIN*/
-main {
-    background-color: var(--blue_principal);
+.header-menu a:hover {
+    text-decoration: underline;
 }
+/*MAIN*/
 main img {
-    width: 100%;
-    opacity: 50%;
+    width: 600px;
+    opacity: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .content-principal {
+    background-color: var(--blue_principal);
     font-family: 'Montserrat';
     color: var(--white);
-    font-size: 1.4rem;
 }
 .content-principal div {
     position: relative;
@@ -60,22 +63,26 @@ main img {
 }
 .content-principal h1 {
     font-size: 3rem;
-    margin-top: 60px;
+    margin-top: 0px;
+    padding-top: 30px;
+    font-family: 'Courgette';
 }
 .content-principal p {
     margin-top: 70px;
+    width: 100%;
+    font-size: 1.2rem;
 }
 .content-principal button {
-    width: 170px;
-    height: 50px;
-    margin-top: 90px;
-    background-color: #d7aff7;
+    width: 180px;
+    height: 60px;
+    margin: 60px 0px;
+    background-color: #ffa6a6; 
     border: 2px solid;
-    border-radius: 10px;
+    border-radius: 30px;
     font-family: 'Montserrat';
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    line-height: 1.8rem;
+    line-height: 2rem;
     cursor: pointer;
     outline: none;
 }

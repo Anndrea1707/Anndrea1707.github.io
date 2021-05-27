@@ -41,18 +41,19 @@ header img {
     color: var(--white);
     text-decoration: none;
 }
-/*MAIN*/
-main {
-    background-color: #0c1241;
+.header-menu a:hover {
+    text-decoration: underline;
 }
+/*MAIN*/
 main img {
     width: 250px;
     margin: 30px 0px 0px 180px;
     border-radius: 40px;
+    box-shadow: 2px 4px 8px rgba(26, 25, 22, 0.432);
 }
 .main-presentation {
     font-family: 'Montserrat';
-    color: var(--white);
+    color: var(--black);
     position: absolute;
     margin: -450px 50px 0px 500px;
 }

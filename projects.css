@@ -1,6 +1,5 @@
 :root{
     /*COLORES*/
-    --blue: #00a1c9;
     --blue_principal: #030622;
     --black: #111111;
     --white: #f7f7f7;
@@ -41,6 +40,43 @@ header img {
     color: var(--white);
     text-decoration: none;
 }
-main {
+.header-menu a:hover {
+    text-decoration: underline;
+}
+/*MAIN*/
+.project1 {
+    width: 400px;
+    height: 400px;
+    background-color: #f37fda;
+    border-radius: 40px;
+    margin: 50px 100px;
+    box-shadow: 4px 6px 8px rgba(86, 73, 30, 0.16);
+}
+.project1 img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.project1__buttom button {
+    width: 200px;
+    height: 50px;
+    margin: 20px 0px 80px 100px;
     background-color: var(--blue_principal);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.438);
+}
+.project1__buttom a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Courgette';
+    font-size: 1.2rem;
+}
+.project2 {
+    width: 400px;
+    height: 400px;
+    background-color: #f37fda;
+    border-radius: 40px;
+    margin: 150px 100px;
 }
